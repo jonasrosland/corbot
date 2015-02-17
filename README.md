@@ -8,6 +8,9 @@ This README is intended to help get you started. Definitely update and improve t
 [hubot]: http://hubot.github.com
 [generator-hubot]: https://github.com/github/generator-hubot
 
+Build status:
+![build status](https://travis-ci.org/virtualswede/corbot.svg?branch=master)
+
 ### Running hubot Locally
 
 You can test your hubot by running the following.
