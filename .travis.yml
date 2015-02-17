@@ -1,5 +1,19 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 notifications:
   email: false
+env:
+  global:
+    secure: G+d1x7w24JOEdPV3eGPBIvW2Zs23OQfAuEuuX8VQv7nn2gCbkUlvsN1MXRpBsdnqoRfA96x88eFAuI+Q6irKd/RD40tvXP+PTkyXH0B3bcnWuiktvPMSZ6n49sIfoVyhpOM/3pkSsojU1GF3Hp3Xjzec8xywy1Dp++xTNpyh+Fg=
+deploy:
+  provider:
+    provider: cloudfoundry
+  api: https://api.run.pivotal.io
+  username: jonas.rosland@emc.com
+  password:
+    secure: mPxQbIF8+cR0hHw93iRcXLx74t0b3TKRR+jR0fMOqDUO3VfCkCmHoNzxeJgmiK62bUvfytcv3hUZ6l8ZNGVpCofTCcz/hHOMY0sTSKO11Elnny4uPNvR/H7Yj/DvY2ODO9qztrLLaZopWr9B/w/bhnWU4VLN9lQr/yGw1hO/Vk4=
+  organization: emccode
+  space: development
+  on:
+    repo: virtualswede/corbot
