@@ -1,0 +1,8 @@
+---
+applications:
+- name: corbot
+  memory: 256M
+  no-route: true
+  env:
+    HUBOT_SLACK_TOKEN:
+      inherit: y
