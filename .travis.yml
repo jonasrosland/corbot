@@ -9,7 +9,8 @@ env:
 deploy:
   provider: cloudfoundry
   api: https://api.run.pivotal.io
-  username: jonas.rosland@emc.com
+  username:
+    secure: "JXiBukpxnUSazZEBj8L+Nci3QuVHE47dL7Hs6bJkJR+oHD4SUOU3y+eiglukMioOQofo1Q/r4upGGiJ6CDdmTZIJDdeXbVpy3DFulJNZDIznMDcgLaVL4bSBBYvebOEE6FwPOBTWKNj3XiibtFka9G0GbBoAeFuxfs7LgWBYcxI="
   password:
     secure: mPxQbIF8+cR0hHw93iRcXLx74t0b3TKRR+jR0fMOqDUO3VfCkCmHoNzxeJgmiK62bUvfytcv3hUZ6l8ZNGVpCofTCcz/hHOMY0sTSKO11Elnny4uPNvR/H7Yj/DvY2ODO9qztrLLaZopWr9B/w/bhnWU4VLN9lQr/yGw1hO/Vk4=
   organization: emccode
@@ -17,3 +18,5 @@ deploy:
   on:
     repo: virtualswede/corbot
     branch: master
+  env:
+    secure: G+d1x7w24JOEdPV3eGPBIvW2Zs23OQfAuEuuX8VQv7nn2gCbkUlvsN1MXRpBsdnqoRfA96x88eFAuI+Q6irKd/RD40tvXP+PTkyXH0B3bcnWuiktvPMSZ6n49sIfoVyhpOM/3pkSsojU1GF3Hp3Xjzec8xywy1Dp++xTNpyh+Fg=
