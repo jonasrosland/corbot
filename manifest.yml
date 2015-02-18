@@ -3,3 +3,4 @@ applications:
 - name: corbot
   memory: 256M
   no-route: true
+  command:
